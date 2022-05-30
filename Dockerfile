@@ -1,6 +1,6 @@
 FROM python:3.8.0
 
-RUN pip install --no-cache-dir mlflow[extras] PyMySQL
+RUN pip install --no-cache-dir mlflow[extras] psycopg2-binary
 
 EXPOSE 5000
 
